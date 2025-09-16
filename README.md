@@ -22,8 +22,7 @@ O sistema simula uma concessionária, permitindo o gerenciamento de diferentes t
 
 ### Classes Derivadas (Subclasses)
 - Criar **duas classes** que herdam de `Veiculo`.  
-- Cada classe deve conter um **atributo adicional** específico para aquele tipo de veículo.  
-- Implementar o método abstrato de forma apropriada em cada subclasse.  
+- Cada classe deve conter um **atributo adicional** específico para aquele tipo de veículo. 
 
 ---
 

@@ -13,25 +13,28 @@ O sistema simula uma concessionária, permitindo o gerenciamento de diferentes t
 ## ✅ Requisitos
 
 ### Classe Base (Superclasse)
-- Criar uma classe **abstrata** chamada `Veiculo`.  
+- Criar uma classe chamada `Veiculo`.  
 - **Atributos privados**: `marca`, `modelo`, `ano`.  
 - Métodos **getters e setters** para acessar/modificar os atributos.  
-- Um **método abstrato** para exibir as informações completas do veículo.  
+- Criar um método chamado `exibirInformacoes()` que mostre as informações do veículo.  
+  - Esse método deve ser sobrescrito nas subclasses para incluir os atributos específicos de cada uma.  
 
 ---
 
 ### Classes Derivadas (Subclasses)
-- Criar **duas classes** que herdam de `Veiculo`.  
-- Cada classe deve conter um **atributo adicional** específico para aquele tipo de veículo. 
+- Criar **duas classes** que herdam de `Veiculo`:  
+  - `Carro` → atributo adicional: `quantidadeDePortas`  
+  - `Moto` → atributo adicional: `cilindrada`  
+- Cada classe deve sobrescrever o método `exibirInformacoes()` de forma apropriada, permitindo o polimorfismo quando chamado na classe principal.
 
 ---
 
 ### Polimorfismo
-- Criar uma coleção de `Veiculo` na classe principal.  
-- Adicionar diferentes tipos de veículos nessa coleção. 
+- Criar objetos de `Carro` e `Moto` diretamente na classe principal (`Main`).  
+- Chamar o método `exibirInformacoes()` em cada objeto, demonstrando que o mesmo método se comporta de forma diferente dependendo do tipo de veículo.
 
 ---
 
 ### Encapsulamento
 - Todos os atributos devem ser **privados**.  
-- Criar **métodos públicos Set e Get** para acessar e modificar os atributos.  
+- Criar **métodos públicos (`get` e `set`)** para acessar e modificar os atributos.

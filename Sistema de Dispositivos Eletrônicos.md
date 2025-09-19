@@ -40,7 +40,6 @@ Cada classe deve:
 ### Polimorfismo
 - Criar objetos das subclasses na classe principal (**`Main`**)
 - Chamar o método **`obterInformacoes()`** em cada objeto, demonstrando que o mesmo método se comporta de forma diferente dependendo do tipo de dispositivo
-- Demonstrar o uso de **polimorfismo** através de um **array da superclasse** contendo objetos das subclasses
 
 ### Encapsulamento
 - Todos os atributos devem ser **privados**
@@ -51,6 +50,15 @@ Cada classe deve:
 
 ## 📁 Estrutura do Projeto
 
+```text
+SistemaDispositivosEletronicos/
+│
+├── DispositivoEletronico.java
+├── Smartphone.java
+├── Tablet.java
+├── Notebook.java
+└── Main.java
+```
 
 ---
 
@@ -71,4 +79,3 @@ Cada classe deve:
 - [ ] Certificar-se de que todos os atributos estão adequadamente encapsulados e acessíveis apenas através de métodos getters  
 
 ---
-

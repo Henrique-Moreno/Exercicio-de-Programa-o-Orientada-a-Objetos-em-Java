@@ -50,3 +50,25 @@ Cada classe deve:
 ---
 
 ## 📁 Estrutura do Projeto
+
+
+---
+
+## 🎯 Objetivos de Aprendizado
+- **Herança**: Pratique a criação de uma hierarquia de classes onde subclasses herdam características da superclasse  
+- **Polimorfismo**: Implemente métodos que se comportam de maneira diferente em cada subclasse  
+- **Encapsulamento**: Proteja os dados usando modificadores de acesso `private` e forneça acesso controlado através de métodos getters  
+- **Modificador `final`**: Use o modificador `final` para atributos que não devem ser alterados após a inicialização  
+- **Construtores**: Aprenda a criar construtores que inicializem objetos corretamente, incluindo a chamada ao construtor da superclasse  
+
+---
+
+## 📋 Tarefas
+- [ ] Implementar a classe base **`DispositivoEletronico`** com todos os atributos e métodos especificados  
+- [ ] Criar as três subclasses (**`Smartphone`**, **`Tablet`**, **`Notebook`**) que herdam de `DispositivoEletronico`  
+- [ ] Em cada subclasse, implementar o método `obterInformacoes()` para incluir informações específicas do dispositivo  
+- [ ] Na classe `Main`, criar instâncias de cada tipo de dispositivo e demonstrar o polimorfismo  
+- [ ] Certificar-se de que todos os atributos estão adequadamente encapsulados e acessíveis apenas através de métodos getters  
+
+---
+
